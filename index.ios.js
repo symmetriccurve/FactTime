@@ -22,7 +22,7 @@ export default class FactTime extends Component {
     return (
       <View style={{flex:1,backgroundColor:'#2898D6',alignItems:'center',justifyContent:'center'}}>
             <View style={{flex:3,margin:50,alignItems:'center',justifyContent:'center'}}>
-               <Text style={{fontSize:30,fontFamily:'AvenirNext-Bold',color:'#FFFFFF',textAlign:'center'}}> {facts[this.getRandomInt(0,8)]}</Text>
+               <Text style={{fontSize:30,fontFamily:'AvenirNext-Bold',color:'#FFFFFF',textAlign:'center'}}> {facts[this.getRandomInt(0,12)]}</Text>
             </View>
             <View style={{flex:1,marginBottom:50}}>
                <TouchableHighlight underlayColor= '#EEEEEE' onPress = {()=>{this.setState({random:Math.random()})}}  style={{height:100,width:200,backgroundColor:'#FFFFFF',opacity:0.8,alignItems:'center',justifyContent:'center'}}>
